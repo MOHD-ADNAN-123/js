@@ -48,7 +48,7 @@ const min =10
 const max = 20
 
 console.log(Math.floor(((Math.random() * (max - min + 1) + min)))); //--> GENERATE BETWEEN 10 AND 20
-// VERY IMPORTANT  
+// VERY IMPORTANT ,DECODE IT AND UNDERSTAND FROM LINE 39
 
 //+++++++++++++++++++++++++++++++++
 
