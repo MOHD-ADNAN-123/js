@@ -3,21 +3,21 @@
 const num1 = 400                // JS AUTOMATICALLY DECIDE IT IS A NUMBER
 const num2 = new Number(300)    // WE IMPLICITELY DEFINE IT AS A NUMBER
 
-// console.log(num1);
-// console.log(num2);
+console.log(num1);
+console.log(num2);
 
 // WE CAN USE SOME PROPERTIES LIKE CHANGING IT INTO STRING WHEN WE USE NEW KEYWORD
 //AND ONCE THE NUMBER IS CONVERTED INTO STRING WE CAN USE MULTIPLE PROPERTIES OF STRING 
 
-// console.log(num2.toString().length);
+console.log(num2.toString().length);
 
 
 //VERY IMPORTANT PROPERTY -- WE CAN FIX THE DIGIT AFTER THE DECIMAL
-// console.log(num2.toFixed(2));
+console.log(num2.toFixed(2));
 
 //ROUND OF AND GIVE THE TOTAL NUMBER OF DIGIT AS INSIDE TOPRECISION
 const num3 = 1123.44532
-// console.log(num3.toPrecision(5));
+console.log(num3.toPrecision(5));
 
 
 
