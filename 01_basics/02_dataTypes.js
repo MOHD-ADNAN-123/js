@@ -2,7 +2,7 @@
 
 let name = "ADNAN"
 let age = 19
-let passed = true   // or false
+let passed = true   
 
 //DATATYPES USED MOSTLY
 
@@ -20,3 +20,4 @@ console.log(typeof age);
 typeof is used to get the type of any data
 */
 console.log(typeof null);    //object type
+console.log(typeof undefined);  //undefined type
