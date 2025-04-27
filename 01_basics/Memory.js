@@ -17,7 +17,7 @@ let userOne ={                 //  ---> OBJECT ONE
 let userTwo = userOne;
 
 //WHEN WE CHANGE ONE VALUE, THE OTHER WILL AUTOMATICALLY CHANGE
-userTwo.email= "akshay@google"
+userTwo.email= "akshay@google"    // WE CAN ACCESS USING DOT(.) OPERATOR
 console.log(userTwo.email);
 console.log(userOne.email);
 

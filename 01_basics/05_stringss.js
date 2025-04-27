@@ -1,13 +1,21 @@
 // ********************************** STRINGS *****************************************
 
-//Backticks(``) are used to write statement and if we want to inject variable, we use ${variablName}
+//String interpolation
+// Backticks(``) are used to write statement and if we want to inject variable, we use ${variablName}
 
 let name = "ADNAN"
 let age =19;
+let AnotherName = "UTKARSH";
+let aage="20"
 console.log(`MY NAME IS ${name} and my age is ${age}`);
+console.log(`MY NAME IS ${AnotherName} AND MY AGE IS ${aage}`);
+
+
 
 // ANOTHER WAY TO DECLARE A STRING ---> USING NEW KEYWORD
-const StrName = new String("AADDNNAANN")
+
+
+const StrName = new String("Adnannnnnnnnnn")
 // THIS METHOD PROVIDE US MULTIPLE METHODS EXTRAS LIKE INDEX, LENGTH ETC.. WHICH ARE SHOWN BELOW
 
 // console.log(StrName.length)   // ---> LENGTH
@@ -32,6 +40,7 @@ let StrName4 = "MYHBFDSBKFVDHBHHHCOSDLNFCBHVHCND"
 console.log(StrName4.replace('BHH','--'));
 
 //TO SPLIT A STRING -- STRINGNAME.split(splitter)
+//GIVE OUTPUT IN ARRAY
 console.log(StrName4.split('B'));
 
 
