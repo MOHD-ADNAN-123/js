@@ -9,15 +9,17 @@ console.log(num2);
 // WE CAN USE SOME PROPERTIES LIKE CHANGING IT INTO STRING WHEN WE USE NEW KEYWORD
 //AND ONCE THE NUMBER IS CONVERTED INTO STRING WE CAN USE MULTIPLE PROPERTIES OF STRING 
 
-console.log(num2.toString().length);
+console.log(num2.toString()); //toString() method
+console.log(typeof num2.toString());
+
 
 
 //VERY IMPORTANT PROPERTY -- WE CAN FIX THE DIGIT AFTER THE DECIMAL
 console.log(num2.toFixed(2));
 
-//ROUND OF AND GIVE THE TOTAL NUMBER OF DIGIT AS INSIDE TOPRECISION
+//ROUND OF AND GIVE THE TOTAL NUMBER OF DIGIT AS INSIDE ToPrecision
 const num3 = 1123.44532
-console.log(num3.toPrecision(5));
+console.log(num3.toPrecision(5));    //TOTAL DIGIT WILL BE 5 (NOT AFTER DECIMAL)
 
 
 
@@ -36,12 +38,13 @@ console.log(Math.max(4,6,8,1,4));   // ---> SIMILARLY MIN IS ALSO PRESENT
 //++++++++++++++++++++++++++++++++
 
 //VERY IMP
-console.log(Math.random());       //----> GENERATES RANDOM VALUES BETWEEN 0 AND 1
+console.log(Math.random());       //----> GENERATES RANDOM VALUES BETWEEN 0(Inclusive) AND 1(Exclusive)
 
 //CONCEPT USE IN DICE ROLLING
 console.log((Math.random()*6));   //----> GENERATES A RANDOM VALUE BETWEEN 0 AND 6
 console.log((Math.random()*6)+1); //----> GENERATES A RANDOM VALUE BETWEEN 1 AND 6
 console.log(Math.floor((Math.random()*6)+1))  //---> TO GENERATES ONLY INTEGER VALUES
+
 
 // FOR SOME RANGE
 const min =10
@@ -51,6 +54,9 @@ console.log(Math.floor(((Math.random() * (max - min + 1) + min)))); //--> GENERA
 // VERY IMPORTANT ,DECODE IT AND UNDERSTAND FROM LINE 39
 
 //+++++++++++++++++++++++++++++++++
+
+
+
 
 
 
