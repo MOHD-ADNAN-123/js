@@ -61,11 +61,47 @@ const Arr =[{1:"adnan",2:"utkarsh",3:"akshay"},
 
 //**********IMP METHODS*************** */
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));  //RETURNS KEYS IN A LIST
-console.log(Object.values(tinderUser));//RETURNS VALUES IN A LIST
-console.log(Object.entries(tinderUser)); //ARRAYS INSIDE A ARRAY (id,values)
+// console.log(Object.keys(tinderUser));  //RETURNS KEYS IN A LIST
+// console.log(Object.values(tinderUser));//RETURNS VALUES IN A LIST
+// console.log(Object.entries(tinderUser)); //ARRAYS INSIDE A ARRAY (id,values)
 
-console.log(tinderUser.hasOwnProperty('LoggedIn'));// TO CHECK WHETHER A PROPERTY EXIST OR NOT
+// console.log(tinderUser.hasOwnProperty('LoggedIn'));// TO CHECK WHETHER A PROPERTY EXIST OR NOT
 
+
+
+//***************************DE-STRUCTURE**************** */
+
+const course ={
+    coursename: "CHAI AUR CODE",
+    price: "999",
+    teacher:"HITESH"
+}
+
+//TO PRINT ANY PROPERTY
+//console.log(course.teacher);
+
+
+//************************************************************* */
+//DE STRUCTURE
+
+//IF WE WANT TO USE IT MULTIPLE TIMES WE WILL USE THIS FOR MORE READABILITY
+const {teacher: t} = course
+console.log(t);
+
+//SYNTAX => const {PROPERTY : SHORTNAME(OPTIONAL)} = objectName
+
+//****************************************************************/
+
+
+//**********************JSON  =>API ************************* */
+//JUST AN INTRO 
+//WE WILL LEARN COMPLETE AFTER SOMETIME
+//KEY ARE STRING ALSO
+
+// {
+//     "name": "ADNAN",
+//     "coursename": "JS IN HINDI"
+//     "price": "FREE"
+// }
