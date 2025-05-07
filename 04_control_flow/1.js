@@ -20,7 +20,7 @@ if(balance>400) console.log("ENOUGH BALANCE");
 
 
 //************IF ,ELSE IF AND ELSE************ */
-let marks=75;
+let marks=95;
 if (marks>=90) {
     console.log("Grade: A");
 } else if (marks>=75) {
@@ -43,11 +43,17 @@ else if(age>18 || bal>400){
 
 
 //**********SWITCH CASE*********** 
-switch (marks) {
-    case :
-        
+const month =2;
+switch (month) {
+    case 1:
+        console.log("jan");
         break;
-
+    case 2:
+        console.log("feb");
+        break;
     default:
+        console.log("FAIL");
         break;
 }
+//BY DEAFULT IF THE KEY MATCHES -> ALL THE CODE AFTER THAT WILL BE EXECUTED EXCEPT DEFAULT
+//SO USE OF BREAK IS VERY IMPORTANT TO MAKE SURE EVERY CASE WORKS INDEPENDENTLY
