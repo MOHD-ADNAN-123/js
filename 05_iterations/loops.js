@@ -19,11 +19,19 @@ for (let i = 0; i < 5; i++) {
 //BREAK
 for (let i = 0; i < 20; i++) {
     if(i==10) break;
-    console.log(i); 
+    //console.log(i); 
 }
 
 //CONTINUE  
 for (let i = 0; i < 20; i++) {
     if(i==10) continue;
-    console.log(i);
+    //console.log(i);
+}
+
+//**************ARRAY*********
+
+let Myarr = ["A","B","C","D"] 
+for (let index = 0; index < Myarr.length; index++) {
+    const element = Myarr[index];
+    console.log(element);
 }
