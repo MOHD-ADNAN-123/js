@@ -22,3 +22,19 @@ buttons.forEach(function(button) {
     }
   })
 }) -->
+
+## PROJECT 2
+<!-- 
+//first learn how to take values from entries
+
+const form= document.querySelector("form")
+
+form.addEventListener("submit",function(e) {
+  //to not send data to server
+  e.preventDefault()
+  const h=parseInt(document.querySelector("#height").value);
+  const w =parseInt(document.querySelector("#weight").value);
+  const BMI_ans = w*10000/(h*h);
+  const res=document.querySelector("#results");
+  res.innerHTML =BMI_ans;
+}) -->
