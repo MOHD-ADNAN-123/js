@@ -38,3 +38,16 @@ form.addEventListener("submit",function(e) {
   const res=document.querySelector("#results");
   res.innerHTML =BMI_ans;
 }) -->
+
+## PROJECT 3
+<!-- const clock=document.querySelector("#clock");
+ 
+//using this will only display it , it wont update
+// clock.innerHTML=d;
+
+//SET INTERVAL METHOD
+setInterval(function(){
+  let date = new Date();
+  let d=date.toLocaleString();
+  clock.innerHTML=d;
+} , 1000); -->
