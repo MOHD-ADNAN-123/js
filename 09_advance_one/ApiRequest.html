@@ -33,7 +33,7 @@
         console.log(xhr.readyState);
         //response data from api
         if(xhr.readyState === 4){
-            const data=JSON.parse(this.responseText)
+            const data=JSON.parse(this.responseText)  // this.responseText =>store the entire server response in plain text from
             console.log(data.followers);
         }
     }
