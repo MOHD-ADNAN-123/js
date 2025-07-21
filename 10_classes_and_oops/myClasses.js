@@ -1,26 +1,26 @@
 // CLASSES IN JAVASCRIPT 
 
-class User{
-    //Constructor
-    constructor(username,email,password){
-        this.username =username;
-        this.email=email;
-        this.password=password;
-    }
+// class User{
+//     //Constructor
+//     constructor(username,email,password){
+//         this.username =username;
+//         this.email=email;
+//         this.password=password;
+//     }
 
-    //Method
-    encryptPassword(){
-        return `${this.password}abc`
-    }
+//     //Method
+//     encryptPassword(){
+//         return `${this.password}abc`
+//     }
 
-    changeUsername(){
-        return `${this.username.toUpperCase()}`
-    }
-}
+//     changeUsername(){
+//         return `${this.username.toUpperCase()}`
+//     }
+// }
 
-const chai= new User("adnan","ad@fb.com","1234");
-console.log(chai.encryptPassword());
-console.log(chai.changeUsername());
+// const chai= new User("adnan","ad@fb.com","1234");
+// console.log(chai.encryptPassword());
+// console.log(chai.changeUsername());
 
 
 //IF WE DONT USE CLASSES 
